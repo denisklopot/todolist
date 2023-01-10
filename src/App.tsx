@@ -28,7 +28,6 @@ function App() {
     /*let durshlag = tasks1
     durshlag = tasks1.filter(el => el.isDone)*/
 
-
 /*    let[filterButtonName, setFilterButtonName] = useState<FilterButtonNameType>("All")
 
     let durshlag = tasks1

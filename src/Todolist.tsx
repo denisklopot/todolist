@@ -6,7 +6,6 @@ export type TodolistPropsType = {
     //tasks: Array<TasksType>
     tasks: TasksType[]
     removeTask: (taskId: number) => void
-
 }
 
 type TasksType = {
@@ -17,7 +16,6 @@ type TasksType = {
 export const Todolist = (props: TodolistPropsType) => {
 
     let [filterButtonName, setFilterButtonName] = useState<FilterButtonNameType>("All")
-
     let durshlag = props.tasks
 
     if (filterButtonName === "Active") {
