@@ -42,7 +42,7 @@ export const Todolist = (props: TodolistPropsType) => {
                 {durshlag.map((el, index) => {
                     return (
                         <li key={el.id}>
-                            <button onClick={() => props.removeTask(el.id)}>X</button>
+                            <button onClick={() => props.removeTask(el.id)}>XxX</button>
                             <input type="checkbox" checked={el.isDone}/>
                             <span>{el.title}</span>
                         </li>
