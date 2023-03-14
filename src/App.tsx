@@ -41,7 +41,6 @@ function App() {
 
     const filteredCurrentTasks = (buttonName: FilterButtonNameType) => {
         setFilterButtonName(buttonName)
-
     }*/
 
     return (
